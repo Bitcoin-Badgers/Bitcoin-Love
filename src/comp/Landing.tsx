@@ -1,14 +1,4 @@
-import {
-  Button,
-  ColumnFlex,
-  SubHeading,
-  Port,
-  RowFlex,
-  SubText,
-  TextHeading,
-  Text,
-  TriText,
-} from "./styled";
+import { ColumnFlex } from "./styled";
 import { openContractCall } from "@stacks/connect";
 
 import { AppConfig, UserSession } from "@stacks/connect";
@@ -215,17 +205,19 @@ const Landing = () => {
     <Connect authOptions={AUTH_OPTIONS}>
       <div
         style={{
-          minHeight: "100%",
+          minHeight: "90%",
           backgroundColor: APP_COLORS.black,
           padding: "20px 0",
+          flex: 1,
         }}
       >
         <ColumnFlex
-          height={"inherit"}
+          height={"100%"}
           alignItems="center"
           justifyContent="center"
           margin={"auto"}
           maxWidth={"1280px"}
+          minHeight={"100%"}
         >
           <ColumnFlex
             width={"100%"}
