@@ -205,7 +205,7 @@ const Landing = () => {
     <Connect authOptions={AUTH_OPTIONS}>
       <div
         style={{
-          minHeight: "90%",
+          minHeight: "80%",
           backgroundColor: APP_COLORS.black,
           padding: "20px 0",
           flex: 1,
